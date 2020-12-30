@@ -26,7 +26,8 @@ The audio signal is converted to MFCC features, MFCC is the closest technique th
 - Lowercasing ("HELLO" => hello).
 - Converting to Phonemes ("turn" => "t er n")
 - Labelling phonemes : By using a dictionary to label each phoneme into a list of integer values. And we’ll use this list to train the model.
-- Padding all vectors.
+- Padding all vectors.<br>
+
 **Example :**
 1. Turn Down the Heat !
 2. Turn Down the Heat
