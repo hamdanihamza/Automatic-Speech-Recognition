@@ -4,7 +4,8 @@
 - Pandas
 - Matplotlib
 - Scipy.io's Wavfile
-- Python_speech_features' MFCC
+- g2p : https://github.com/roedoejet/g2p
+- Python speech features' MFCC : https://python-speech-features.readthedocs.io/en/latest/
 - Json
 - Sklearn
 - Numpy
