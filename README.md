@@ -25,7 +25,9 @@ The audio signal is converted to MFCC features, MFCC is the closest technique th
 - Tokenization ("Hello World" => ["Hello", "World"]).
 - Lowercasing ("HELLO" => hello).
 - Converting to Phonemes ("turn" => "t er n")
-- Labelling phonemes : By using a dictionary to label each phoneme into a list of integer values. And we’ll use this list to train the model.
+- Labelling phonemes : 
+By using a dictionary to label each phoneme into a list of integer values. And we’ll use this list to train the model.
+Dictionnary is located in 'g2p/g2p/mappings/langs/eng/cmudict_SPHINX_40.txt'
 - Padding all vectors.<br>
 
 **Example :**
@@ -43,4 +45,5 @@ The architecture of the model is an input layer of 13 features (MFCC) 2 Bidirect
 * The model was trained on Google Colab's CPU, Golab only give you a limited period of using its GPU, so the model was trained for only 9 hours/15 epochs with a small amount of data. With more data and computational resources the model could improve a lot.
 
 For more details : ha.h.hamdani@gmail.com
+* Contact me if you want me to share the drive with you.
 * You are free to use the model.
