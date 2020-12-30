@@ -40,6 +40,7 @@ The audio signal is converted to MFCC features, MFCC is the closest technique th
 The model is a Deep Learning model, made with a GRU Neural Network of 1.6M parameters. 
 The architecture of the model is an input layer of 13 features (MFCC) 2 Bidirectional GRU layers of 256 units, a TimeDistributed Layer and a CTC Layer provided by Cyprien RUFFINO (https://github.com/cyprienruffino).
 * The model is provided in 'final_results' folder.
-
+* The model was trained on Google Colab's CPU, Golab only give you a limited period of using its GPU, so the model was trained for only 9 hours/15 epochs with a small amount of data. With more data and computational resources the model could improve a lot.
 
 For more details : ha.h.hamdani@gmail.com
+* You are free to use the model.
